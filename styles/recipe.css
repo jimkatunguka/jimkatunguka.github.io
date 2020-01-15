@@ -29,14 +29,12 @@ a{
 
 .cake{
     text-decoration: line-through;
-    /* display :none; */
 }
-
-#directions p span .pie::after{
-    /*content: ' pie';*/
-    text-decoration: none;
+/*
+.cake{
     display: none;
 }
+*/
 blockquote{
     font-style: italic;
     background-color: #FFFFA8;
