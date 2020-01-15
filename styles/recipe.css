@@ -22,3 +22,27 @@ body{
 a{
    color: #A4A400; 
 }
+
+#directions ol li span{
+    font-weight: bold;
+}
+
+#directions p span{
+    text-decoration: line-through;
+    display :none;
+}
+
+#directions p span::after{
+    content: 'pie';
+    text-decoration: none;
+    display: contents;
+}
+blockquote{
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+
+blockquote span{
+    font-weight: bold;
+}
+
