@@ -27,15 +27,15 @@ a{
     font-weight: bold;
 }
 
-#directions p span{
+.cake{
     text-decoration: line-through;
-    display :none;
+    /* display :none; */
 }
 
-#directions p span::after{
-    content: 'pie';
+#directions p span .pie::after{
+    /*content: ' pie';*/
     text-decoration: none;
-    display: contents;
+    display: none;
 }
 blockquote{
     font-style: italic;
@@ -46,7 +46,7 @@ blockquote span{
     font-weight: bold;
 }
 
-pre{
-    text-align: leftt;
+#main-footer{
+    text-align: right;
 }
 
