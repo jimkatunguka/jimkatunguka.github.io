@@ -44,6 +44,15 @@ p::first-letter{
     font-size: 1.5em;
 }
 
+#my-movies dt{
+    color: coral;
+}
+
+/* #my-movies ol{display: list-item; flex-direction:column-reverse; }
+*/
+ol {display:list-item; } ul > li { order:2;} 
+
+
 #main-footer{
     background: #333;
     color: #fff;
