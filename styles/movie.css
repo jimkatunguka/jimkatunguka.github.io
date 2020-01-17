@@ -78,7 +78,7 @@ h1{
         margin-right: 5px;
         float: left;
     }
-    
+
     div p.reviewer span{
         font-style: italic;
     }
@@ -93,15 +93,15 @@ h1{
         font-size: 8pt;
     }
     #details dt{
-        line-height: 10pt;
-        font-weight: bold;
+      
+       padding-top: 10pt;
+       font-weight: bold;
 
     }
 
     #details a{
         text-decoration: none;
     }
-
     #footer{
         grid-area: footer;
         background-color: #A2B964;
