@@ -32,6 +32,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    overflow: hidden;
 
     grid-template-areas:
     'rotten  overview'
