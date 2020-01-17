@@ -27,7 +27,6 @@ h1{
 
 #container{
     display: grid;
-    /*background-color: white;*/
     border: 4px solid gray;
     width: 800px;
     margin-left: auto;
@@ -62,8 +61,6 @@ h1{
     #review{
         grid-area: review;
             column-count: 2;
-           /* column-gap: 40px;*/
-           /*column-width: 47%;*/
            margin: 2%;
         }
 
@@ -81,11 +78,7 @@ h1{
         margin-right: 5px;
         float: left;
     }
-
-    .reviewer img{
-        /*float: right;*/
-    }
-
+    
     div p.reviewer span{
         font-style: italic;
     }
