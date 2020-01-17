@@ -1,6 +1,6 @@
 body{
     background-image: url("../images/tmnt/background.png");
-    font-weight: 8pt;
+    font-size: 8pt;
     font-family: Verdana, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -63,7 +63,7 @@ h1{
         grid-area: review;
             column-count: 2;
            /* column-gap: 40px;*/
-           column-width: 47%;
+           /*column-width: 47%;*/
            margin: 2%;
         }
 
