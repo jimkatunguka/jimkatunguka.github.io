@@ -22,8 +22,9 @@
         return max(max(a, b), c);
   
       }
+      console.log("Expected output of maxOfThree(5,4,44) is 44  " + myFunctionTest(44, maxOfThree(5, 4, 44)));
+     
       /*isVowel takes a character and returns true if its a vowel and false if otherwise*/
-  
       function isVowel(x) {
         const vowels = new Array("a", "e", "i", "o", "u");
         for (let i = 0; i < vowels.length; i++) {
@@ -109,3 +110,23 @@
         return init * num;
       });
       console.log(d);
+
+      /*Using console.assert */
+      console.log("/*--using console.assert--*/");
+
+      /* runs test to see if expected argument is === to value returned by function2test argument */
+    function myFunctionTest2(expected, found) {
+      if (expected === found) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    console.assert(myFunctionTest2(20, max(20, 10)), 'Expected output of max(20,10) is 20');
+    console.assert(myFunctionTest2(44, maxOfThree(5, 4, 44)), 'Expected output of maxOfThree(5, 4, 44) is 44');
+    console.assert(myFunctionTest2(false, isVowel("Z")), 'Expected output of isVowel("Z") is false');
+    console.assert(myFunctionTest2(13, sum([1, 2, 3, 7])), 'Expected output of sum([1, 2, 3, 7]) is 13');
+    console.assert(myFunctionTest2(6, multiply([2, 3])), 'Expected output of multiply([2, 3]) is 6');
+    console.assert(myFunctionTest2('yob a si mij', reverse('jim is a boy')), "Expected output of reverse('jim is a boy') is 'yob a si mij'");
+    console.assert(myFunctionTest2(5, findLongestWord(['go', 'come', 'stay', 'going'])), "Expected output of findLongestWord(['go', 'come', 'stay', 'going']) is 5");
