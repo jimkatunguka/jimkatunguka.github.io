@@ -18,6 +18,7 @@ body {
     font-size: 12pt;
     margin-left: 20px;
     margin-right: 20px;
+   
 }
 user agent stylesheet
 html {
@@ -33,6 +34,7 @@ legend{
 #text{
     border-right: 1px solid white;
 }
+
 .us{
     border-top: 1px solid gray;
     font-size: 12pt;
@@ -41,4 +43,8 @@ legend{
 #decoration{
     border-right: 1px solid white;
     border-bottom: 1px solid white;
+}
+
+#myText{
+    text-align: left;
 }
