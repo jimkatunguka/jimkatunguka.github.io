@@ -33,8 +33,9 @@ legend{
 #text{
     border-right: 1px solid white;
 }
-#text textarea{
+.us{
     border-top: 1px solid gray;
+    font-size: 12pt;
 }
 
 #decoration{
