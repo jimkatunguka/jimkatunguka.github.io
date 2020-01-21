@@ -38,11 +38,28 @@ describe("W1D5 Function Tests", function () {
 
   //filterLongWords
   it("Expected output of filterLongWords(['go', 'come', 'stay', 'going']) is ['come', 'stay', 'going'] " , function(){
-    const output = new Array('come', 'stay', 'going').toString;
-    const input = new Array('go', 'come', 'stay', 'going').toString;
-    assert.equal(filterLongWords(input, 3), output)
+    const output = "come,stay,going";
+    const input = new Array('go', 'come', 'stay', 'going');
+    assert.equal(filterLongWords(input, 3).toString(), output)
   });
 });
+
+describe("Mapper", function () {
+  //mapper
+  it("Expected output of mapper(animals, alen) is '3,4,3'  ", function () {
+    assert.equal(mapper(animals, alen), '3,4,3')
+  });
+});
+
+describe("myFilter", function () {
+  //myFilter
+  it("Expected output of myfilter(animals, alen) is '0,4'  ", function () {
+    assert.equal(myfilter(arraie, filtie), '0,4')
+    
+  });
+});
+
+
 /* max returns the maximum of 2 arguments */
 function max(a, b) {
   if (a > b) {
@@ -172,4 +189,3 @@ console.log(
 
 // initial array remains the same
 console.log(arraie);
-
