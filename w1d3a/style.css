@@ -43,12 +43,13 @@ li{
 ul {
     background-color: red;
     padding: 20px;
-    text-align: center;
+    text-align: left;
   }
   
   li {
     display: inline;
     border: 1px solid black;
+    border-radius:50%;
     padding: 10px;
     background-color: white;
   }
@@ -58,13 +59,13 @@ ul {
   #overall{
       background-color: lightgray;
       width: 500px;
-      clear: right;
-      padding: 5px 5px 5px 5px;
+      padding: 5px;
       overflow: hidden;
   }
 
   #overall h1{
       background-color: yellow;
+  
   }
 
   #area-1, #area-2 {
@@ -73,6 +74,7 @@ ul {
       padding: 10px;
       float: right;
       margin-left: 10px;
+      margin-bottom: 10px;
   }
 
   #a, #b {
@@ -84,5 +86,6 @@ ul {
   }
   #a { background-color: lightblue; }
   #b { background-color: pink; }
-  #c { background-color: lightgray; }
+  #c { background-color: lightgray;
+       float: right; }
   
