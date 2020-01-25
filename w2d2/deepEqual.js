@@ -36,7 +36,7 @@
         },
         object : 2
       };
-      describe("deepEqual", function () {
+      describe("deepEqual method", function () {
         it("deepEqual(obj, obj) -> true", function () {
           assert.equal(deepEqual(obj, obj), true)
         });
