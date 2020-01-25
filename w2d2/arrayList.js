@@ -60,10 +60,8 @@
   
     }
   
-    console.log()
   
-  
-    describe("arrayList", function () {
+    describe("array -> List", function () {
       it("arrayToList([ 1, 2, 3 ]", function () {
         assert.equal(arrayToList([ 1, 2, 3 ]).toString(),"[object Object]")
       })
