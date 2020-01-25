@@ -13,11 +13,11 @@
        return obj;
      }
    
-     console.log(prepend(10, prepend(20, null)).value);
+     console.log(prepend(100, prepend(50, null)).value);
    
      describe("prepend", function () {
        it("prepend(10, prepend(20, null))", function () {
-         assert.equal(prepend(10, prepend(20, null)).value, 10);
+         assert.equal(prepend(100, prepend(50, null)).value, 100);
        });
    
      });
