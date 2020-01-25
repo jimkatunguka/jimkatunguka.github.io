@@ -45,12 +45,12 @@
     };
   
     describe("reverse", function () {
-      it("reverseArray(C,B,A) ABC", function () {
-        assert.equal(reverseArray(["C","B","A"]).toString(), ["A","B","C"]);
+      it("reverseArray(Z,Y,X) returns XYZ", function () {
+        assert.equal(reverseArray(["Z","Y","X"]).toString(), ["X","Y","Z"]);
       });
   
-      it("reverseArrayInPlace(C,B,A) ABC", function () {
-        assert.equal(reverseArrayInPlace(["C","B","A"]).toString(), ["A","B","C"]);
+      it("reverseArrayInPlace(Z,Y,X) returns XYZ", function () {
+        assert.equal(reverseArrayInPlace(["Z","Y","X"]).toString(), ["X","Y","Z"]);
       });
   
     });
