@@ -1,5 +1,5 @@
 /*We have two hamsters: speedy and lazy inheriting
- from the general hamster object.
+ from the general hamster object..
 
  let hamster = {
   stomach: [],
