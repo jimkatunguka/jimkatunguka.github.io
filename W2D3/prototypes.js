@@ -1,5 +1,5 @@
 "use strict";
-//WORKING WITH PROTOTYPE
+//WORKING WITH PROTOTYPE.
 
 //Which values are shown in the process?
 let animal = {
