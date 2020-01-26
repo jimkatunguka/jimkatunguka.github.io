@@ -1,5 +1,5 @@
 /*If we call rabbit.eat(), 
-which object receives the full property: animal or rabbit?
+which object receives the full property: animal or rabbit?.
 */
 
 let animal = {
