@@ -1,4 +1,4 @@
-//SEARCHING ALGORITHM
+//SEARCHING ALGORITHM.
 /*
 Given the following objects:-
 let head = {
