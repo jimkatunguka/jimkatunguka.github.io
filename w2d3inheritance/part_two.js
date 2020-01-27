@@ -66,7 +66,7 @@ Teacher.prototype.teach = function (subject) {
 var me = new Teacher();
 
 me.initialize("Prof. Keith Levi", 0);
-me.teach("WAP");
+console.log(me.teach("WAP"));
 
 describe("Prototype Attribute", function () {
 
