@@ -47,13 +47,12 @@ console.log(" \n 3. Prototype Attribute");
 
 var Person = function () { };
 
-Person.prototype.initialize = function (name, age) {
+Person.prototype.initialize = function (name) {
   this.name = name;
-  this.age = age;
 };
 
 Person.prototype.describe = function () {
-  return this.name + ", " + this.age + " years old.";
+  return this.name;
 };
 
 var Teacher = function () { };
@@ -65,7 +64,7 @@ Teacher.prototype.teach = function (subject) {
 
 var me = new Teacher();
 
-me.initialize("Prof. Keith Levi", 0);
+me.initialize("Prof. Keith Levi");
 console.log(me.teach("WAP"));
 
 describe("Prototype Attribute", function () {
