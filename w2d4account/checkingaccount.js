@@ -24,7 +24,7 @@ class CheckingAccount extends Account {
     }
 
     toString() {
-        return "Account " + this._number + ": balance " + this._balance + ": overdraft_limit " + this.overdraft_limit;
+        return "Account " + this._number + ": balance " + this._balance + ": Overdraft_limit " + this.overdraft_limit;
     }
 
 }
@@ -49,7 +49,7 @@ describe("withdraw() and setOverdraft_limit()  ", function () {
 });
 
 describe(" checking toString()  ", function () {
-    it("'Expected output of  mychecking.toString() is Account 110110075: balance -10000: overdraft_limit 10000", function () {
-        assert.equal(mychecking.toString(), 'Account 110110075: balance -10000: overdraft_limit 10000');
+    it("'Expected output of  mychecking.toString() is Account 110110075: balance -10000: Overdraft_limit 10000", function () {
+        assert.equal(mychecking.toString(), 'Account 110110075: balance -10000: Overdraft_limit 10000');
     })
 });
