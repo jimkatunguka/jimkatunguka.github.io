@@ -1,4 +1,5 @@
 'use strict';
+
 class Bank {
     // static next Number that tracks the next account number
     static nextNumber = 64001;
@@ -47,7 +48,7 @@ class Bank {
         }
     }
 
-    // a general account report for all bank accounts
+    //a general account report for all bank accounts
     accountReport() {
         let string = '';
         for (let i = 0; i < this.bankAccounts.length; i++) {
@@ -56,7 +57,12 @@ class Bank {
         return string;
     }
 
-
+    //end of month
+    endOfMonth() {
+        this.bankAccounts.forEach(account => {
+            console.log(account.endofMonth());
+        });
+    }
 }
 //create a bank object barclays
 let barclays = new Bank();
@@ -94,11 +100,3 @@ describe("closeAccount(64002) and accountReport()", function () {
         assert.equal(barclays.accountReport(), "Account 64001: balance 0\nAccount 64003: balance 0: Overdraft_limit 1000\n");
     });
 });
-
-
-
-//barclays.addSavingsAccount(10);
-//barclays.addCheckingAccount(1000);
-
-//barclays.closeAccount(64002);
-
