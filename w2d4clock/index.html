@@ -1,0 +1,38 @@
+<!-- Dear professor,
+   Please find in the link below my implemented class on the clock clock
+   it took me 20 minutes to solve and got me to understand
+   function constructors and classes. Please note that by this time 
+   I have note been able to find the exercise on native prototypes
+   http://www.jimkatunguka.github.io/w2d4clock/index.html
+  -->
+  <meta charset="UTF-8">
+  <title>Intro to Js</title>
+
+  <!-- importing mocha css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+  <!-- importing mocha -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+  <script>
+    mocha.setup('bdd'); // minimal setup
+  </script>
+  <!-- importing chai -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+  <script>
+    // setup global
+    let assert = chai.assert;
+  </script>
+  
+  <script src="clock.js"></script>
+  
+</head>
+<body>
+    <h1>
+      Clock
+    </h1>
+    <p>Open console to view Output</p>
+<div id="mocha"></div>
+<script>
+  mocha.run();
+</script>
+</body>
+</html>
