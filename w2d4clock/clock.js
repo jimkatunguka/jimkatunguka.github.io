@@ -40,14 +40,13 @@ class Clock {
       if (runner === 10) { this.stop(); }
       this.render()
     }, 1000);
-    //clearInterval(this.timer, 10000);
   };
 }
 
 let clock = new Clock({ template: 'h:m:s' });
 clock.start();
-
-/*Questions and Answers
+/*
+Questions and Answers
 What is the inner function of the constructor function?
   - reduce()
   - start()
