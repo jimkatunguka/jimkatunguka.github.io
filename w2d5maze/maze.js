@@ -12,7 +12,7 @@ $(document).ready(()=>{
 
     $('div#end').on('mouseenter',()=>{
         if(looser === false){
-        $('h2#status').html('You win');
+        $('h2#status').html('You win! :]');
         }
         else{
         $('h2#status').html('You lose');  
