@@ -1,2 +1,2 @@
 # jimKatunguka.github.io
-my simple blog
+About Me
