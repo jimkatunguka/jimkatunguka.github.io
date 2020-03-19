@@ -1,2 +1,2 @@
-# lamhotjm.github.io
-my simple blog
+# jimKatunguka.github.io
+About Me
